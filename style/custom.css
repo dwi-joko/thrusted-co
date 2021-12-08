@@ -163,9 +163,11 @@ ul.menu-left li:last-child img {
 .promotion-wrapper {
   display: flex;
   align-items: center;
-  background: #57bbf3;
+  background: #2184bc;
   padding: 2rem;
   border-radius: 8px;
+  background-image: url(../assets/bg-promo.png);
+  background-size: contain;
 }
 
 .promotion-wrapper .right .btn-yellow {
@@ -208,6 +210,8 @@ ul.menu-left li:last-child img {
 
 .star .text-promotion h6 {
   font-size: 2.9375rem;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 2.375rem;
 }
 
 .dark-content {
