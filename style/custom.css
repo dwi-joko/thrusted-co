@@ -568,6 +568,11 @@ ul.menu-left li:last-child img {
   min-height: 40vh;
 }
 
+.stick {
+  position: fixed;
+  top: 0;
+}
+
 .cta .btn-default {
   padding: 1rem 2rem;
   margin-left: 1rem;
