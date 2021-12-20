@@ -4,7 +4,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
-    <title>Thrusted Co</title>
+    <title>Hupper 3D</title>
     <meta name="description" content="" />
     <meta name="author" content="" />
 
@@ -59,7 +59,7 @@
                       <div class="badge">new</div>
                     </li>
                     <li>
-                      <a href="#"><img src="assets/search-white.png" alt="" /></a>
+                      <a id="myBtn" href="#"><img src="assets/search-white.png" alt="" /></a>
                     </li>
                   </ul>
                 </div>
@@ -180,7 +180,7 @@
           </div>
           <div class="col-md-6">
             <div class="promotion-wrapper">
-              <div class="left">
+              <!-- <div class="left">
                 <h1 class="big-text">CYBER MONDAY SALE</h1>
               </div>
               <div class="right">
@@ -195,6 +195,9 @@
                   Save now
                   <div class="icon"><img src="assets/arrow-right.png" alt="" /></div>
                 </div>
+              </div> -->
+              <div class="images-promo">
+                <img src="assets/banner-promo.png" alt="" />
               </div>
             </div>
           </div>
@@ -265,7 +268,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="card-item">
                 <div class="image">
                   <img src="assets/fb-1.png" alt="" />
@@ -274,7 +277,7 @@
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="card-item">
                 <div class="image">
                   <img src="assets/fb-1.png" alt="" />
@@ -283,7 +286,7 @@
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="card-item">
                 <div class="image">
                   <img src="assets/fb-1.png" alt="" />
@@ -292,7 +295,7 @@
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="card-item">
                 <div class="image">
                   <img src="assets/fb-1.png" alt="" />
@@ -503,6 +506,39 @@
             </div>
           </div>
         </div>
+
+        <div id="modalContainer" class="modal-box">
+          <div class="modal-wrapper">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <div class="form-search d-flex align-center">
+                <div class="form-group d-flex align-center">
+                  <div class="icon"><img src="assets/search.png" alt="search" /></div>
+                  <input type="search" placeholder="Type anyting to search..." />
+                  <div class="custom-select">
+                    <select name="category" id="category" form="categoryform">
+                      <option value="volvo">Illustration</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div>
+
+                  <div class="custom-select">
+                    <select name="category" id="category" form="categoryform">
+                      <option value="volvo">Any Platform</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="btn-default">search</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -591,6 +627,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="slick/slick.js"></script>
+  <!-- <script src="slick/slick.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <script src="js/aiden.js"></script>
 </html>
